@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="icon" href="aitu_logo.jpg">
+</head>
+<body style="background-color: #ADD8E6; text-align: center;">
+    <h1 style="color: green;">Contact Me</h1>
+    
+    <img src="aitu_logo.jpg" alt="Profile Picture" width="200" style="display: block; margin: 0 auto;">
+
+    <table border="1" align="center" style="margin: 20px auto; border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th>Contact Information</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Email</td>
+                <td><a href="mailto:230299@astanait.com">230299@astanait.com</a></td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td>+777 8781 471</td>
+            </tr>
+        </tbody>
+     </table>
+    
+    <p>You can leave your message below:</p>
+    
+    <form action="your-server-endpoint" method="post">
+        <label for="name">Your name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+    
+        <label for="email">Your email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <label for="message">Your message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+    
+        <button type="button">Send</button>
+    </form>
+    <nav>
+        <a href="home.html">Home</a> |
+        <a href="hobbies.html">Hobbies</a>
+    </nav>
+</body>
+</html>

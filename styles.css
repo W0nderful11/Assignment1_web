@@ -1,0 +1,27 @@
+
+body {
+    background-color: #ADD8E6;
+    text-align: left;
+}
+
+h1 {
+    color: navy;
+    text-align: left;
+}
+
+hr {
+    border-top: 2px solid #333;
+    width: 100%;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: darkred;
+}
+
+nav {
+    text-align: center;
+}
